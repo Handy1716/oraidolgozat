@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("dsada")})();
+(()=>{"use strict";document.getElementById("darkMode").addEventListener("click",(function(){document.body.classList.toggle("dark-mode")}))})();
