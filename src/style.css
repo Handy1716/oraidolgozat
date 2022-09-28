@@ -8,3 +8,10 @@ body{
 textarea{
     height: 30px;
 }
+img{
+    width: 500px;
+    border: 20px solid;
+}
+.szelessegV{
+    width:200px;
+}

@@ -7,8 +7,10 @@ function darkMode() {
     element.classList.toggle("dark-mode");
  }
 function kepUrl() {
-    var element = document.img;
-    element.classList.toggle("dark-mode");
+   // var element = document.img;
+   // document.getElementById("kep").src = "hackanm.gif";
+    document.getElementById("kep").style.width = document.getElementById("szelesseg").value + 'px';
+    document.getElementById("kep").style.border = document.getElementById("keret").value + 'px';
  }
 
 
@@ -16,7 +18,9 @@ function kepUrl() {
  
 document.getElementById("darkMode").addEventListener("click", darkMode);
 document.getElementById("darkMode").addEventListener("click", darkMode);
-document.getElementById("kepurl").addEventListener("change", darkMode);
+document.getElementById("szelesseg").addEventListener("keyup", kepUrl);
+//document.getElementById("keret").addEventListener("keyup", kepUrl);
+//document.getElementById("szin").addEventListener("keyup", kepUrl);
 
 
 
