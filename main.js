@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("darkMode").addEventListener("click",(function(){document.body.classList.toggle("dark-mode")}))})();
+(()=>{"use strict";function e(){document.body.classList.toggle("dark-mode")}document.getElementById("darkMode").addEventListener("click",e),document.getElementById("darkMode").addEventListener("click",e),document.getElementById("kepurl").addEventListener("change",e)})();
